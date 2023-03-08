@@ -9,7 +9,7 @@ const middlewares = jsonServer.defaults();
 
 app.db = router.db;
 const corsOptions = {
-  origin: 'http://167.86.109.4:8022',
+  origin: ['http://localhost:5173', 'http://167.86.109.4:8022'],
   credentials: true,
   methods: 'GET, POST, PUT, PATCH, DELETE',
 };
