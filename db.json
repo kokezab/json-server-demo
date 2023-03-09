@@ -9,6 +9,48 @@
       "key": "en-US"
     }
   ],
+  "vehicleCategory": [
+    {
+      "name": "erer",
+      "cubicCapacity": "78",
+      "id": 1
+    },
+    {
+      "name": "sdasdas",
+      "cubicCapacity": "343",
+      "id": 2
+    },
+    {
+      "name": "asdas",
+      "cubicCapacity": "2323",
+      "id": 3
+    },
+    {
+      "name": "wewe",
+      "cubicCapacity": "3343",
+      "vehicleType": 1,
+      "id": 4
+    },
+    {
+      "name": "assd",
+      "cubicCapacity": "445",
+      "id": 5
+    },
+    {
+      "name": "asdas",
+      "cubicCapacity": "434",
+      "id": 7
+    },
+    {
+      "id": 8
+    }
+  ],
+  "vehicleType": [
+    {
+      "id": 1,
+      "name": "Car"
+    }
+  ],
   "productTypes": [
     {
       "id": 1,
@@ -51,6 +93,10 @@
     {
       "name": "dfdsf",
       "id": 7
+    },
+    {
+      "name": "dfg",
+      "id": 8
     }
   ],
   "users": [
