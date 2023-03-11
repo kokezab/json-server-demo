@@ -13,6 +13,7 @@
     {
       "name": "erer",
       "cubicCapacity": "78",
+      "vehicleType": 1,
       "id": 1
     },
     {
@@ -71,32 +72,21 @@
   ],
   "boxType": [
     {
-      "name": "asdasere",
-      "id": 1
+      "id": 1,
+      "name": "Koleta",
+      "size": "mediumasd"
     },
     {
-      "name": "wewew",
+      "name": "asdas",
       "id": 2
     },
     {
-      "name": "cdfdfasd",
+      "name": "asda",
+      "id": 3
+    },
+    {
+      "name": "wewew",
       "id": 4
-    },
-    {
-      "name": "asdaseredf",
-      "id": 5
-    },
-    {
-      "name": "cdfdfwew",
-      "id": 6
-    },
-    {
-      "name": "dfdsf",
-      "id": 7
-    },
-    {
-      "name": "dfg",
-      "id": 8
     }
   ],
   "users": [
@@ -323,6 +313,80 @@
       "accountStatus": "inactive",
       "lastLogin": "2023-03-01T07:31:50.824Z",
       "id": 21
+    }
+  ],
+  "views": [
+    {
+      "id": 1,
+      "icon": "HomeOutlined",
+      "isSideMenuItem": true,
+      "order": 1,
+      "key": "reporting"
+    },
+    {
+      "id": 2,
+      "icon": "UserOutlined",
+      "isSideMenuItem": true,
+      "order": 2,
+      "key": "users"
+    },
+    {
+      "id": 3,
+      "icon": "SettingOutlined",
+      "isSideMenuItem": true,
+      "order": 3,
+      "key": "settings"
+    },
+    {
+      "id": 4,
+      "icon": "BookOutlined",
+      "isSideMenuItem": true,
+      "order": 4,
+      "key": "codebooks"
+    },
+    {
+      "id": 5,
+      "icon": "AppstoreOutlined",
+      "isSideMenuItem": true,
+      "order": 5,
+      "key": "boxType",
+      "parentViewId": 4
+    },
+    {
+      "id": 6,
+      "icon": "AppstoreOutlined",
+      "isSideMenuItem": true,
+      "order": 6,
+      "key": "authorizationFrontend"
+    },
+    {
+      "key": "asdasd",
+      "id": 7
+    },
+    {
+      "key": "asdas",
+      "id": 8
+    },
+    {
+      "key": "asdaswe",
+      "id": 9
+    },
+    {
+      "key": "asdasasdas",
+      "id": 10
+    },
+    {
+      "key": "asdasasdasasdas",
+      "id": 11
+    }
+  ],
+  "components": [
+    {
+      "id": 1,
+      "key": "name",
+      "viewId": 5,
+      "componentType": 2,
+      "componentState": 2
     }
   ]
 }
